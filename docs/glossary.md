@@ -288,6 +288,118 @@
 
 **ZeRO** — Zero Redundancy Optimizer. Family of optimizer-state / gradient / weight sharding methods. ZeRO-3 = FSDP. See [Distributed training](senior/distributed-training.md).
 
+---
+
+## Data structures & algorithms
+
+**ADR** — Architecture Decision Record. Short doc capturing one architectural choice. See [Design](fundamentals/software-engineering/design.md).
+
+**Amortised analysis** — average cost per operation over a sequence where individual ops vary. See [Complexity](fundamentals/dsa/complexity.md).
+
+**Big-O / Big-Θ / Big-Ω** — asymptotic upper / tight / lower bounds. See [Complexity](fundamentals/dsa/complexity.md).
+
+**BFS / DFS** — breadth-first / depth-first search. See [Tree BFS](fundamentals/dsa/patterns/tree-bfs.md), [Tree DFS](fundamentals/dsa/patterns/tree-dfs.md).
+
+**BST** — binary search tree. See [Core data structures](fundamentals/dsa/core-structures.md).
+
+**Cyclic Sort** — `O(n)` pattern for arrays containing `1..n`. See [Cyclic Sort](fundamentals/dsa/patterns/cyclic-sort.md).
+
+**Dynamic Programming (DP)** — memoise overlapping sub-problems. See [Dynamic Programming](fundamentals/dsa/patterns/dynamic-programming.md).
+
+**Fenwick tree / BIT** — prefix-sum tree with $O(\log n)$ point updates. See [Advanced](fundamentals/dsa/advanced.md).
+
+**Grokking patterns** — the 16+ recurring shapes that cover ~80% of LeetCode-medium problems. See [Coding patterns](fundamentals/dsa/patterns/index.md).
+
+**HNSW** — Hierarchical Navigable Small World; graph-based ANN index. See [Advanced](fundamentals/dsa/advanced.md), [Retrieval](rag/retrieval.md).
+
+**Knapsack (0/1, unbounded)** — DP sub-pattern over item selection. See [Dynamic Programming](fundamentals/dsa/patterns/dynamic-programming.md).
+
+**K-Way Merge** — merge K sorted sources via a heap. See [K-Way Merge](fundamentals/dsa/patterns/k-way-merge.md).
+
+**Memoisation** — cache sub-problem results in recursive DP. See [Dynamic Programming](fundamentals/dsa/patterns/dynamic-programming.md).
+
+**NP-complete / NP-hard** — class of problems for which no polynomial algorithm is known (and is conjectured impossible). See [Theory](fundamentals/dsa/theory.md).
+
+**P = NP** — open question; most theorists conjecture P ≠ NP. See [Theory](fundamentals/dsa/theory.md).
+
+**Quickselect** — randomised $O(n)$ expected algorithm for the K-th order statistic. See [Top K Elements](fundamentals/dsa/patterns/top-k-elements.md).
+
+**Reciprocal rank fusion (RRF)** — combining multiple ranked lists. See [Retrieval](rag/retrieval.md).
+
+**Segment tree** — range queries + point updates in $O(\log n)$. See [Advanced](fundamentals/dsa/advanced.md).
+
+**Sliding Window** — pattern for contiguous sub-array / substring problems. See [Sliding Window](fundamentals/dsa/patterns/sliding-window.md).
+
+**Topological Sort** — DAG node ordering. See [Topological Sort](fundamentals/dsa/patterns/topological-sort.md).
+
+**Trie** — tree indexed by string prefixes. See [Advanced](fundamentals/dsa/advanced.md).
+
+**Two Pointers / Fast-Slow Pointers** — two-index traversal patterns. See [Two Pointers](fundamentals/dsa/patterns/two-pointers.md), [Fast & Slow](fundamentals/dsa/patterns/fast-slow-pointers.md).
+
+**Union-Find (DSU)** — disjoint-set structure for connected components. See [Advanced](fundamentals/dsa/advanced.md).
+
+## Software engineering
+
+**Agile** — the 2001 manifesto's iterative philosophy. See [Methodologies](fundamentals/software-engineering/methodologies.md).
+
+**Architecture Decision Record (ADR)** — see ADR above.
+
+**Blameless postmortem** — incident review that focuses on systems / processes, not individuals. See [DevOps / SRE](fundamentals/software-engineering/devops.md).
+
+**CI / CD** — Continuous Integration / Continuous Delivery (or Deployment). See [CI/CD](fundamentals/software-engineering/cicd.md).
+
+**Clean Architecture** — Robert Martin's concentric-layer architecture; depend inward. See [Architecture](fundamentals/software-engineering/architecture.md).
+
+**Conway's Law** — system structure mirrors organisational communication. See [Team topologies](fundamentals/software-engineering/team.md).
+
+**DORA metrics** — deployment frequency, lead time, change-fail rate, MTTR. See [Methodologies](fundamentals/software-engineering/methodologies.md).
+
+**DRY** — Don't Repeat Yourself. See [Implementation](fundamentals/software-engineering/implementation.md).
+
+**Error budget** — `1 - SLO`. See [DevOps / SRE](fundamentals/software-engineering/devops.md).
+
+**Feature flag** — runtime toggle decoupling deploy from release. See [CI/CD](fundamentals/software-engineering/cicd.md).
+
+**Gitflow** — branching model with long-lived develop/master branches. See [Version control](fundamentals/software-engineering/version-control.md).
+
+**Hexagonal architecture** — ports-and-adapters; core has no I/O. See [Architecture](fundamentals/software-engineering/architecture.md).
+
+**IaC** — Infrastructure as Code. See [DevOps / SRE](fundamentals/software-engineering/devops.md).
+
+**Kanban** — flow-based methodology with WIP limits. See [Methodologies](fundamentals/software-engineering/methodologies.md).
+
+**Microservices** — small, independently-deployable services. See [Architecture](fundamentals/software-engineering/architecture.md).
+
+**Monolith (modular)** — single deployment with strict internal boundaries. See [Architecture](fundamentals/software-engineering/architecture.md).
+
+**MTTR / MTBF** — Mean Time To Recovery / Between Failures. See [DevOps / SRE](fundamentals/software-engineering/devops.md).
+
+**Postmortem** — written incident review. See [DevOps / SRE](fundamentals/software-engineering/devops.md).
+
+**RUP** — Rational Unified Process. See [Methodologies](fundamentals/software-engineering/methodologies.md).
+
+**Scrum** — Agile framework with sprints and ceremonies. See [Methodologies](fundamentals/software-engineering/methodologies.md).
+
+**SDLC** — Software Development Life Cycle. See [SDLC](fundamentals/software-engineering/sdlc.md).
+
+**Semver** — semantic versioning (MAJOR.MINOR.PATCH). See [Version control](fundamentals/software-engineering/version-control.md).
+
+**SLA / SLO / SLI** — Service Level Agreement / Objective / Indicator. See [DevOps / SRE](fundamentals/software-engineering/devops.md).
+
+**SOLID** — five OO design principles: SRP, OCP, LSP, ISP, DIP. See [Design](fundamentals/software-engineering/design.md).
+
+**SRE** — Site Reliability Engineering. See [DevOps / SRE](fundamentals/software-engineering/devops.md).
+
+**Story point** — relative-effort estimate; *not* a productivity metric. See [Methodologies](fundamentals/software-engineering/methodologies.md).
+
+**TDD / BDD** — Test-Driven / Behaviour-Driven Development. See [Testing](fundamentals/software-engineering/testing.md).
+
+**Technical debt** — shortcut you take now and pay interest on later. See [Maintenance](fundamentals/software-engineering/maintenance.md).
+
+**Twelve-factor app** — cloud-native principles. See [Architecture](fundamentals/software-engineering/architecture.md).
+
+**XP** — Extreme Programming; engineering practices on top of Agile. See [Methodologies](fundamentals/software-engineering/methodologies.md).
+
 ## Further reading
 
 For depth on any term: follow the linked chapter, then the citations in the chapter's References section. For unknown acronyms not above: search the handbook (top bar) — it's likely defined in the first chapter that uses it.

@@ -63,6 +63,38 @@
 
 See [Landmark → Books worth reading](landmark/books.md) for the full list.
 
+## Data structures & algorithms
+
+- **[Grokking the Coding Interview Patterns](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)** — the open catalogue our [patterns chapter](fundamentals/dsa/patterns/index.md) mirrors.
+- **[NeetCode](https://neetcode.io/)** — curated problem lists per pattern; YouTube walkthroughs.
+- **[LeetCode](https://leetcode.com/)** — practice platform.
+- **[CSES Problem Set](https://cses.fi/problemset/)** — competitive-programming style; high quality.
+- **[CP-Algorithms](https://cp-algorithms.com/)** — segment trees, suffix arrays, graph algorithms.
+- **Cormen et al. — *Introduction to Algorithms* (CLRS), 4th ed.** — canonical textbook.
+- **Skiena — *The Algorithm Design Manual*, 3rd ed.** — catalogue + war stories.
+- **Sedgewick & Wayne — *Algorithms*, 4th ed.** ([algs4.cs.princeton.edu](https://algs4.cs.princeton.edu/)).
+- **Sipser — *Introduction to the Theory of Computation*, 3rd ed.** — P, NP, complexity classes.
+- **McDowell — *Cracking the Coding Interview*, 6th ed.** — interview process.
+- **Aziz, Lee, Prakash — *Elements of Programming Interviews in Python*.**
+
+## Software engineering
+
+- **SWEBOK v4** — IEEE *Software Engineering Body of Knowledge*. [computer.org/education/bodies-of-knowledge/software-engineering](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
+- **Pressman & Maxim — *Software Engineering: A Practitioner's Approach*, 9th ed.** — comprehensive textbook.
+- **Sommerville — *Software Engineering*, 10th ed.**
+- **Fowler — *Refactoring*, 2nd ed.** — and [martinfowler.com](https://martinfowler.com/) for ongoing writing.
+- **Martin — *Clean Code* / *Clean Architecture* / *The Clean Coder*.**
+- **Hunt & Thomas — *The Pragmatic Programmer*, 20th-Anniversary ed.**
+- **Kim, Humble, Debois, Willis — *The DevOps Handbook*, 2nd ed.**
+- **Forsgren, Humble, Kim — *Accelerate*.**
+- **Beyer et al. — *Site Reliability Engineering*.** Free at [sre.google/sre-book](https://sre.google/sre-book/table-of-contents/).
+- **Brooks — *The Mythical Man-Month*** — still relevant.
+- **Skelton & Pais — *Team Topologies*.**
+- **Newman — *Building Microservices*, 2nd ed.**
+- **Kleppmann — *Designing Data-Intensive Applications*.** Distributed systems.
+- **Feathers — *Working Effectively with Legacy Code*.**
+- **Larson — *Staff Engineer*.** [staffeng.com](https://staffeng.com/).
+
 ## Sibling project
 
 [**NeuroStack**](https://github.com/phindagijimana/neuro_stack) — the open neuroimaging handbook. If you work at the intersection of medical imaging and AI, both will be relevant.

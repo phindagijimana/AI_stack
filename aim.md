@@ -35,7 +35,8 @@ Concrete signals the aim is being met:
 - Getting Started → first LLM call → first RAG bot can be completed in under an hour by a true beginner.
 - The Capstone tutorial walks a production LLM app end-to-end (data → fine-tune / prompt → eval → ship → observe) on one screen.
 - Reading Paths gives at least four named sequences for distinct backgrounds.
-- The Glossary has ≥ 100 cross-linked entries covering LLMs, training, inference, retrieval, and engineering.
+- The Glossary has ≥ 100 cross-linked entries covering LLMs, training, inference, retrieval, software engineering, and DSA.
+- Fundamentals covers the *general* engineering substrate (Data structures & algorithms with the 16+ Grokking coding patterns, Software engineering covering the full SDLC) in addition to the AI-specific chapters — so the handbook stands alone as a beginner-to-PhD curriculum for the role, not only the AI side.
 - The repo's `mkdocs build --strict` passes in CI.
 
 Failing any of these is a defect to fix, not a feature to leave alone.

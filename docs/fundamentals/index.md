@@ -46,6 +46,18 @@ Models are their data. This subsection covers the four data regimes that matter.
 - **[Preference data](data/preference-data.md)** — pairwise comparisons used for RLHF / DPO / GRPO.
 - **[Filtering & deduplication](data/filtering-deduplication.md)** — MinHash, near-dedup, PII scrubbing, contamination detection.
 
+### Data structures & algorithms
+
+The substrate every engineer is hired against; beginner glossary through PhD-level theory.
+
+- **[DSA index](dsa/index.md)** — complexity, the eight core structures, the [16+ Grokking coding-interview patterns](dsa/patterns/index.md), advanced structures (union-find, segment trees, tries, HNSW), theory (P / NP, approximation, randomised), and interview strategy.
+
+### Software engineering
+
+The full software-development life-cycle and the methodologies behind it.
+
+- **[Software engineering index](software-engineering/index.md)** — [SDLC](software-engineering/sdlc.md), [methodologies](software-engineering/methodologies.md), [design](software-engineering/design.md), [testing](software-engineering/testing.md), [CI/CD](software-engineering/cicd.md), [DevOps / SRE](software-engineering/devops.md), [architecture patterns](software-engineering/architecture.md), [team topologies](software-engineering/team.md), and PhD-level [empirical-SE research](software-engineering/research.md).
+
 ## What this section is *not*
 
 This is not a textbook on machine learning. We assume the reader either already knows gradient descent or is willing to take it on faith for the practical chapters. If you want the textbook, see [Further reading → Bishop, Murphy, Goodfellow](../further-reading.md).

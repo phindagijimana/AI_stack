@@ -44,6 +44,22 @@ Found something missing, wrong, or out of date? We'd love to know — every page
 
     [:octicons-arrow-right-24: Start here](fundamentals/index.md)
 
+-   :material-graph-outline:{ .lg .middle } **Data structures & algorithms**
+
+    ---
+
+    Big-O, the 16+ Grokking coding-interview patterns, advanced structures (union-find, segment trees, tries, HNSW), and the theory (P / NP, approximation, randomised).
+
+    [:octicons-arrow-right-24: Practice patterns](fundamentals/dsa/index.md)
+
+-   :material-source-branch:{ .lg .middle } **Software engineering**
+
+    ---
+
+    Full SDLC. Methodologies, requirements, design, testing, CI/CD, DevOps, architecture, team topologies, and PhD-level empirical-SE research.
+
+    [:octicons-arrow-right-24: Ship like a senior](fundamentals/software-engineering/index.md)
+
 -   :material-message-text:{ .lg .middle } **Prompting**
 
     ---

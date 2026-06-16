@@ -110,6 +110,47 @@ nav:
           - SFT data: fundamentals/data/sft-data.md
           - Preference data: fundamentals/data/preference-data.md
           - Filtering & deduplication: fundamentals/data/filtering-deduplication.md
+      - Data structures & algorithms:
+          - fundamentals/dsa/index.md
+          - Complexity & analysis: fundamentals/dsa/complexity.md
+          - Core data structures: fundamentals/dsa/core-structures.md
+          - Coding patterns:
+              - fundamentals/dsa/patterns/index.md
+              - Two Pointers: fundamentals/dsa/patterns/two-pointers.md
+              - Sliding Window: fundamentals/dsa/patterns/sliding-window.md
+              - Fast & Slow Pointers: fundamentals/dsa/patterns/fast-slow-pointers.md
+              - Merge Intervals: fundamentals/dsa/patterns/merge-intervals.md
+              - Cyclic Sort: fundamentals/dsa/patterns/cyclic-sort.md
+              - In-place Reversal of LinkedList: fundamentals/dsa/patterns/in-place-reversal.md
+              - Tree BFS: fundamentals/dsa/patterns/tree-bfs.md
+              - Tree DFS: fundamentals/dsa/patterns/tree-dfs.md
+              - Two Heaps: fundamentals/dsa/patterns/two-heaps.md
+              - Subsets: fundamentals/dsa/patterns/subsets.md
+              - Modified Binary Search: fundamentals/dsa/patterns/modified-binary-search.md
+              - Bitwise XOR: fundamentals/dsa/patterns/bitwise-xor.md
+              - Top K Elements: fundamentals/dsa/patterns/top-k-elements.md
+              - K-Way Merge: fundamentals/dsa/patterns/k-way-merge.md
+              - Topological Sort: fundamentals/dsa/patterns/topological-sort.md
+              - Dynamic Programming: fundamentals/dsa/patterns/dynamic-programming.md
+          - Advanced structures: fundamentals/dsa/advanced.md
+          - Theory & complexity classes: fundamentals/dsa/theory.md
+          - Interview strategy: fundamentals/dsa/interview-strategy.md
+      - Software engineering:
+          - fundamentals/software-engineering/index.md
+          - The SDLC: fundamentals/software-engineering/sdlc.md
+          - Methodologies: fundamentals/software-engineering/methodologies.md
+          - Requirements: fundamentals/software-engineering/requirements.md
+          - Design: fundamentals/software-engineering/design.md
+          - Implementation: fundamentals/software-engineering/implementation.md
+          - Testing: fundamentals/software-engineering/testing.md
+          - Quality: fundamentals/software-engineering/quality.md
+          - Version control: fundamentals/software-engineering/version-control.md
+          - CI/CD: fundamentals/software-engineering/cicd.md
+          - DevOps / SRE: fundamentals/software-engineering/devops.md
+          - Maintenance: fundamentals/software-engineering/maintenance.md
+          - Architecture patterns: fundamentals/software-engineering/architecture.md
+          - Team topologies: fundamentals/software-engineering/team.md
+          - Research: fundamentals/software-engineering/research.md
   - Prompting:
       - prompting/index.md
       - Basics: prompting/basics.md

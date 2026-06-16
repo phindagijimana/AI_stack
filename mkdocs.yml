@@ -1,0 +1,210 @@
+site_name: AIStack
+site_description: AIStack — the open AI Engineering handbook. From first API call through fine-tuning, distributed training, and production LLM systems.
+site_url: https://phindagijimana.github.io/AI_stack/
+repo_url: https://github.com/phindagijimana/AI_stack
+repo_name: phindagijimana/AI_stack
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - getting-started/index.md
+      - 1. Installing your environment: getting-started/install.md
+      - 2. Your first LLM call: getting-started/first-llm-call.md
+      - 3. Your first RAG bot: getting-started/first-rag.md
+      - 4. Your first agent: getting-started/first-agent.md
+  - Reading paths: paths/index.md
+  - Fundamentals:
+      - fundamentals/index.md
+      - Computational & math foundations:
+          - fundamentals/foundations/index.md
+          - Python for AI engineers: fundamentals/foundations/python.md
+          - Linear algebra: fundamentals/foundations/linear-algebra.md
+          - Probability & information theory: fundamentals/foundations/probability.md
+          - Optimization: fundamentals/foundations/optimization.md
+          - Distributed systems primer: fundamentals/foundations/distributed-systems.md
+      - LLMs from first principles:
+          - fundamentals/llms/index.md
+          - The transformer: fundamentals/llms/transformer.md
+          - Tokenization: fundamentals/llms/tokenization.md
+          - Attention in depth: fundamentals/llms/attention.md
+          - Positional encoding: fundamentals/llms/positional-encoding.md
+          - Decoding & sampling: fundamentals/llms/decoding.md
+          - Scaling laws: fundamentals/llms/scaling-laws.md
+          - Pretraining: fundamentals/llms/pretraining.md
+      - Data:
+          - fundamentals/data/index.md
+          - Pretraining data: fundamentals/data/pretraining-data.md
+          - SFT data: fundamentals/data/sft-data.md
+          - Preference data: fundamentals/data/preference-data.md
+          - Filtering & deduplication: fundamentals/data/filtering-deduplication.md
+  - Prompting:
+      - prompting/index.md
+      - Basics: prompting/basics.md
+      - Few-shot & in-context learning: prompting/few-shot.md
+      - Chain-of-thought & reasoning: prompting/cot.md
+      - Structured outputs: prompting/structured-outputs.md
+      - Prompt injection: prompting/prompt-injection.md
+      - Prompt-engineering MLOps: prompting/prompt-engineering-mlops.md
+  - RAG:
+      - rag/index.md
+      - Retrieval: rag/retrieval.md
+      - Chunking: rag/chunking.md
+      - Reranking: rag/reranking.md
+      - Generation: rag/generation.md
+      - Evaluation: rag/evaluation.md
+      - GraphRAG & structured retrieval: rag/graph-rag.md
+  - Fine-tuning:
+      - fine-tuning/index.md
+      - Supervised fine-tuning (SFT): fine-tuning/sft.md
+      - LoRA & QLoRA: fine-tuning/lora.md
+      - RLHF, DPO, GRPO: fine-tuning/rlhf.md
+      - Reward modeling: fine-tuning/reward-modeling.md
+      - Data curation for FT: fine-tuning/data-curation.md
+  - Agents:
+      - agents/index.md
+      - Tool use: agents/tool-use.md
+      - Planning & decomposition: agents/planning.md
+      - Memory: agents/memory.md
+      - Multi-agent topologies: agents/multi-agent.md
+      - Evaluating agents: agents/evaluation.md
+  - Inference:
+      - inference/index.md
+      - Quantization: inference/quantization.md
+      - KV cache: inference/kv-cache.md
+      - Speculative decoding: inference/speculative-decoding.md
+      - Batching & serving: inference/batching.md
+      - Serving stacks (vLLM, TGI, SGLang): inference/serving.md
+      - Hardware: inference/hardware.md
+  - Evaluation:
+      - evaluation/index.md
+      - Public benchmarks: evaluation/benchmarks.md
+      - LLM-as-judge: evaluation/llm-as-judge.md
+      - Human evaluation: evaluation/human-eval.md
+      - Regression testing: evaluation/regression-testing.md
+      - Calibration: evaluation/calibration.md
+  - Safety:
+      - safety/index.md
+      - Guardrails: safety/guardrails.md
+      - Red-teaming: safety/red-teaming.md
+      - Alignment: safety/alignment.md
+      - Privacy: safety/privacy.md
+      - Evaluating harms: safety/eval-of-harms.md
+  - Production:
+      - production/index.md
+      - Observability: production/observability.md
+      - Cost & token economics: production/cost.md
+      - Latency: production/latency.md
+      - Caching: production/caching.md
+      - Versioning: production/versioning.md
+      - Rollback: production/rollback.md
+      - Shadow traffic & A/B: production/shadow-traffic.md
+      - Logging: production/logging.md
+  - Senior research engineer:
+      - senior/index.md
+      - Research-engineering skills: senior/research-engineering-skills.md
+      - Reading & reproducing papers: senior/reading-papers.md
+      - Reproducibility: senior/reproducibility.md
+      - Distributed training: senior/distributed-training.md
+      - Kernels (CUDA, Triton): senior/kernels.md
+      - Long context: senior/long-context.md
+      - Mixture of experts: senior/mixture-of-experts.md
+      - Multimodal: senior/multimodal.md
+      - Synthetic data: senior/synthetic-data.md
+      - Evaluation design: senior/evaluation-design.md
+      - Org-level AI engineering: senior/org-structure.md
+      - Interview prep: senior/interviewing.md
+  - Tutorials:
+      - tutorials/index.md
+      - Build a RAG bot: tutorials/build-a-rag-bot.md
+      - Build an agent: tutorials/build-an-agent.md
+      - Fine-tune Llama with LoRA: tutorials/fine-tune-llama.md
+      - Build an evaluation pipeline: tutorials/evaluation-pipeline.md
+      - Capstone — production LLM app: tutorials/capstone.md
+  - Landmark work:
+      - landmark/index.md
+      - Foundational papers: landmark/papers.md
+      - Reference models: landmark/models.md
+      - Reference datasets: landmark/datasets.md
+      - Benchmarks: landmark/benchmarks.md
+      - Books worth reading: landmark/books.md
+  - Glossary: glossary.md
+  - Further reading: further-reading.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/phindagijimana/AI_stack
+  generator: false

@@ -95,6 +95,47 @@ See [Landmark → Books worth reading](landmark/books.md) for the full list.
 - **Feathers — *Working Effectively with Legacy Code*.**
 - **Larson — *Staff Engineer*.** [staffeng.com](https://staffeng.com/).
 
+## AI security
+
+- **[MITRE ATLAS](https://atlas.mitre.org/)** — adversary tactics & techniques for AI.
+- **[OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)**.
+- **[NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)**.
+- **[EU AI Act consolidated text](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)**.
+- **[Anthropic Responsible Scaling Policy](https://www.anthropic.com/news/anthropics-responsible-scaling-policy)**.
+- **[Google DeepMind Frontier Safety Framework](https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/)**.
+- **[OpenAI Preparedness Framework](https://cdn.openai.com/openai-preparedness-framework-beta.pdf)**.
+- **[Adversarial Robustness Toolbox (IBM)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)**.
+- **[Garak](https://github.com/leondz/garak)** — LLM vulnerability scanner.
+- **[HarmBench](https://github.com/centerforaisafety/HarmBench), [JailbreakBench](https://jailbreakbench.github.io/)** — adversarial-eval suites.
+- **Shostack — *Threat Modeling: Designing for Security*.**
+- **Dwork & Roth — *The Algorithmic Foundations of Differential Privacy*** (free PDF).
+
+## Explainability
+
+- **Christoph Molnar — *Interpretable Machine Learning*** (free online) — [christophm.github.io/interpretable-ml-book](https://christophm.github.io/interpretable-ml-book/).
+- **[InterpretML](https://github.com/interpretml/interpret)** — Microsoft's SHAP / LIME / EBM library.
+- **[SHAP](https://github.com/shap/shap)** — canonical SHAP implementation.
+- **[Captum](https://captum.ai/)** — PyTorch interpretability library.
+- **[Alibi](https://github.com/SeldonIO/alibi)** — Seldon's library; counterfactuals + concepts.
+- **[OmniXAI](https://github.com/salesforce/OmniXAI)** — Salesforce's unified XAI library.
+- **[Quantus](https://github.com/understandable-machine-intelligence-lab/Quantus)** — XAI evaluation metrics.
+- **[OpenXAI](https://open-xai.github.io/)** — multi-metric benchmark.
+- **Rudin — Stop Explaining Black Box ML Models for High Stakes Decisions** (*Nat. Mach. Intell.* 2019).
+
+## Interpretability
+
+- **[Transformer Circuits Thread](https://transformer-circuits.pub/)** — Anthropic's interpretability publications. The single best resource.
+- **[Distill — Circuits Thread](https://distill.pub/2020/circuits/)** — Olah et al. on CNN interpretability.
+- **[Neel Nanda's interpretability glossary](https://www.neelnanda.io/mechanistic-interpretability/glossary)** and [YouTube channel](https://www.youtube.com/@neelnanda2469).
+- **[ARENA](https://www.arena.education/)** — structured curriculum for interpretability research engineers.
+- **[MATS — Machine Alignment Theorist Scholars](https://www.matsprogram.org/)**.
+- **[TransformerLens](https://github.com/TransformerLensOrg/TransformerLens)** — Python library.
+- **[NNsight + NDIF](https://nnsight.net/)** — interpretability on frontier-scale open models.
+- **[SAELens](https://github.com/jbloomAus/SAELens)** — sparse-autoencoder training and analysis.
+- **[Neuronpedia](https://www.neuronpedia.org/)** — browse SAE features for open models.
+- **[Gemma Scope](https://huggingface.co/google/gemma-scope)** — open SAE collection for Gemma 2.
+- **[circuitsvis](https://github.com/TransformerLensOrg/CircuitsVis)** — interactive attention / activation visualisation.
+
 ## Sibling project
 
 [**NeuroStack**](https://github.com/phindagijimana/neuro_stack) — the open neuroimaging handbook. If you work at the intersection of medical imaging and AI, both will be relevant.

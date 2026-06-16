@@ -116,6 +116,30 @@ Found something missing, wrong, or out of date? We'd love to know — every page
 
     [:octicons-arrow-right-24: Ship safely](safety/index.md)
 
+-   :material-shield-lock:{ .lg .middle } **Security**
+
+    ---
+
+    Threat models, adversarial attacks, jailbreaks (detailed), data poisoning, model extraction, supply-chain, privacy-preserving ML, and compliance frameworks.
+
+    [:octicons-arrow-right-24: Defend the system](security/index.md)
+
+-   :material-lightbulb-on-outline:{ .lg .middle } **Explainability**
+
+    ---
+
+    SHAP, LIME, integrated gradients, counterfactuals, concept-based and example-based explanations. Why most explanations are partial, and how to evaluate the ones that aren't.
+
+    [:octicons-arrow-right-24: Explain predictions](explainability/index.md)
+
+-   :material-eye-circle-outline:{ .lg .middle } **Interpretability**
+
+    ---
+
+    Mechanistic understanding of transformer internals. Linear probes, activation patching, circuits, superposition, sparse autoencoders, interpretability for safety.
+
+    [:octicons-arrow-right-24: Look inside](interpretability/index.md)
+
 -   :material-server:{ .lg .middle } **Production**
 
     ---

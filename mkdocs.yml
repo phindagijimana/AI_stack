@@ -203,6 +203,40 @@ nav:
       - Alignment: safety/alignment.md
       - Privacy: safety/privacy.md
       - Evaluating harms: safety/eval-of-harms.md
+  - Security:
+      - security/index.md
+      - Threat modeling for ML: security/threat-model.md
+      - Adversarial attacks: security/adversarial-attacks.md
+      - Data poisoning: security/data-poisoning.md
+      - Model extraction: security/model-extraction.md
+      - Membership inference & privacy attacks: security/membership-inference.md
+      - Jailbreaks: security/jailbreaks.md
+      - Supply-chain security: security/supply-chain.md
+      - Defenses: security/defenses.md
+      - Privacy-preserving ML: security/privacy-preserving.md
+      - Compliance & governance: security/compliance.md
+  - Explainability:
+      - explainability/index.md
+      - Feature attribution: explainability/feature-attribution.md
+      - SHAP, LIME, anchors: explainability/shap-lime.md
+      - Counterfactual explanations: explainability/counterfactuals.md
+      - Concept-based explanations: explainability/concept-based.md
+      - Example-based explanations: explainability/example-based.md
+      - LLM-specific explainability: explainability/llm-explainability.md
+      - Evaluation of explanations: explainability/evaluation.md
+      - Limitations: explainability/limitations.md
+  - Interpretability:
+      - interpretability/index.md
+      - Basics: interpretability/basics.md
+      - Linear probes: interpretability/linear-probes.md
+      - Feature visualisation: interpretability/feature-visualization.md
+      - Activation patching: interpretability/activation-patching.md
+      - Transformer circuits: interpretability/circuits.md
+      - Superposition: interpretability/superposition.md
+      - Sparse autoencoders: interpretability/sparse-autoencoders.md
+      - Tools: interpretability/tools.md
+      - For safety: interpretability/for-safety.md
+      - Open problems: interpretability/open-problems.md
   - Production:
       - production/index.md
       - Observability: production/observability.md

@@ -400,6 +400,144 @@
 
 **XP** — Extreme Programming; engineering practices on top of Agile. See [Methodologies](fundamentals/software-engineering/methodologies.md).
 
+---
+
+## Security
+
+**Adversarial example** — input crafted to fool a model. See [Adversarial attacks](security/adversarial-attacks.md).
+
+**ATLAS** — MITRE's tactics-and-techniques catalogue for AI attacks. See [Threat model](security/threat-model.md).
+
+**Backdoor** — hidden trigger condition that produces attacker-chosen output. See [Data poisoning](security/data-poisoning.md).
+
+**DP-SGD** — Differentially Private SGD; bounds per-example contribution. See [Privacy-preserving ML](security/privacy-preserving.md).
+
+**EU AI Act** — risk-based EU regulation of AI. See [Compliance](security/compliance.md).
+
+**FGSM / PGD / C&W** — gradient-based adversarial-attack algorithms. See [Adversarial attacks](security/adversarial-attacks.md).
+
+**GCG** — Greedy Coordinate Gradient; jailbreak-suffix optimisation. See [Jailbreaks](security/jailbreaks.md).
+
+**Model extraction** — stealing weights or capabilities via query access. See [Model extraction](security/model-extraction.md).
+
+**Model inversion** — reconstructing training data from a trained model. See [Membership inference](security/membership-inference.md).
+
+**Membership inference attack (MIA)** — determining whether a record was in training. See [Membership inference](security/membership-inference.md).
+
+**NIST AI RMF** — US voluntary risk-management framework. See [Compliance](security/compliance.md).
+
+**OWASP Top 10 for LLM Apps** — standard LLM-vulnerability list. See [Threat model](security/threat-model.md).
+
+**Randomised smoothing** — certified-robustness method via Gaussian noise. See [Defenses](security/defenses.md).
+
+**Safetensors** — code-execution-free model-weight format. See [Supply chain](security/supply-chain.md).
+
+**SBOM / AI BOM** — software / AI bill of materials. See [Supply chain](security/supply-chain.md).
+
+**Sigstore / SLSA / in-toto** — software supply-chain attestation standards. See [Supply chain](security/supply-chain.md).
+
+**Sleeper agent** — model trained with hidden trigger-activated misalignment. See [Data poisoning](security/data-poisoning.md).
+
+**TEE** — Trusted Execution Environment for confidential compute. See [Privacy-preserving ML](security/privacy-preserving.md).
+
+## Explainability
+
+**Anchors** — high-precision rule-based explanations. See [SHAP / LIME / anchors](explainability/shap-lime.md).
+
+**Concept Bottleneck Model (CBM)** — architecturally enforced concept layer. See [Concept-based](explainability/concept-based.md).
+
+**Counterfactual explanation** — smallest change that flips a prediction. See [Counterfactuals](explainability/counterfactuals.md).
+
+**DeepLIFT** — backpropagation-style attribution relative to a reference. See [Feature attribution](explainability/feature-attribution.md).
+
+**ERASER** — NLP-explanation benchmark with comprehensiveness / sufficiency. See [Evaluation](explainability/evaluation.md).
+
+**Faithfulness** — does an explanation reflect what the model actually computes. See [Evaluation](explainability/evaluation.md).
+
+**Grad-CAM** — gradient-weighted class activation mapping for CNNs. See [Feature attribution](explainability/feature-attribution.md).
+
+**Integrated Gradients (IG)** — axiomatic gradient-path attribution. See [Feature attribution](explainability/feature-attribution.md).
+
+**Influence functions** — attribute predictions to training examples. See [Example-based](explainability/example-based.md).
+
+**LIME** — Local Interpretable Model-agnostic Explanations. See [SHAP / LIME](explainability/shap-lime.md).
+
+**LRP** — Layer-wise Relevance Propagation. See [Feature attribution](explainability/feature-attribution.md).
+
+**Plausibility** — does the explanation look reasonable to a human. See [Evaluation](explainability/evaluation.md).
+
+**ProtoPNet** — interpretable image classifier using learned prototypes. See [Example-based](explainability/example-based.md).
+
+**Rashomon effect** — many different models / explanations fit the same data. See [Limitations](explainability/limitations.md).
+
+**SHAP** — SHapley Additive exPlanations. See [SHAP / LIME](explainability/shap-lime.md).
+
+**Saliency map** — image highlighting attribution per pixel. See [Feature attribution](explainability/feature-attribution.md).
+
+**Simulatability** — can a human predict the model from the explanation. See [Evaluation](explainability/evaluation.md).
+
+**SmoothGrad** — gradient averaged over noisy inputs. See [Feature attribution](explainability/feature-attribution.md).
+
+**TCAV** — Testing with Concept Activation Vectors. See [Concept-based](explainability/concept-based.md).
+
+**TracIn** — gradient-trajectory–based influence approximation. See [Example-based](explainability/example-based.md).
+
+**TreeSHAP** — exact polynomial-time SHAP for tree ensembles. See [SHAP / LIME](explainability/shap-lime.md).
+
+## Interpretability
+
+**Activation patching** — replace activations to test causal role. See [Activation patching](interpretability/activation-patching.md).
+
+**Attribution graph** — automated tool tracing SAE feature → behaviour attributions. See [Tools](interpretability/tools.md).
+
+**Backup head** — attention head that takes over when the primary is ablated. See [Circuits](interpretability/circuits.md).
+
+**Causal probing** — probe + intervention to test feature usage. See [Linear probes](interpretability/linear-probes.md).
+
+**Circuit** — set of components implementing a behaviour. See [Circuits](interpretability/circuits.md).
+
+**Dictionary learning** — learning a sparse basis for activations. See [Sparse autoencoders](interpretability/sparse-autoencoders.md).
+
+**Feature visualisation** — optimise inputs to maximise a neuron. See [Feature visualisation](interpretability/feature-visualization.md).
+
+**Function vector** — single direction that, added to the residual stream, induces a function-like behaviour. See [Circuits](interpretability/circuits.md).
+
+**Gemma Scope** — open SAE collection for Gemma 2. See [Tools](interpretability/tools.md).
+
+**Induction head** — attention head implementing `... A B ... A → B`. See [Circuits](interpretability/circuits.md).
+
+**IOI circuit** — Indirect-Object-Identification circuit in GPT-2 small. See [Circuits](interpretability/circuits.md).
+
+**JumpReLU SAE** — SAE variant with learnable per-feature thresholds. See [Sparse autoencoders](interpretability/sparse-autoencoders.md).
+
+**Linear probe** — linear classifier on hidden activations. See [Linear probes](interpretability/linear-probes.md).
+
+**Logit lens** — project intermediate activations through the unembedding. See [Basics](interpretability/basics.md).
+
+**Mechanistic interpretability** — reverse-engineering trained networks. See [Basics](interpretability/basics.md).
+
+**Monosemantic** — feature responding to a single concept. See [Superposition](interpretability/superposition.md).
+
+**NDIF** — National Deep Inference Facility; shared infra for interp on large models. See [Tools](interpretability/tools.md).
+
+**Neuronpedia** — feature-browsing UI for open SAEs. See [Tools](interpretability/tools.md).
+
+**Path patching** — patch activations flowing along a specific path. See [Activation patching](interpretability/activation-patching.md).
+
+**Polysemantic** — feature responding to multiple unrelated concepts. See [Superposition](interpretability/superposition.md).
+
+**Refusal direction** — single residual-stream direction mediating LLM refusal. See [Circuits](interpretability/circuits.md).
+
+**Residual stream** — central vector flowing through transformer layers. See [Basics](interpretability/basics.md).
+
+**Sparse autoencoder (SAE)** — over-complete dictionary learner for activations. See [Sparse autoencoders](interpretability/sparse-autoencoders.md).
+
+**Superposition** — representing more features than dimensions via sparse coding. See [Superposition](interpretability/superposition.md).
+
+**TransformerLens** — Python library for transformer interpretability. See [Tools](interpretability/tools.md).
+
+**Universality (hypothesis)** — analogous circuits arise across models. See [Circuits](interpretability/circuits.md).
+
 ## Further reading
 
 For depth on any term: follow the linked chapter, then the citations in the chapter's References section. For unknown acronyms not above: search the handbook (top bar) — it's likely defined in the first chapter that uses it.

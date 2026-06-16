@@ -58,6 +58,14 @@ Early. Content is being written chapter-by-chapter. The Fundamentals, Prompting,
 
 AIStack is intentionally parallel in style and tone to [NeuroStack](https://github.com/phindagijimana/neuro_stack), an open handbook for neuroimaging. If you work at the intersection of medical imaging and AI, both will be relevant.
 
+## Contact
+
+Maintainer: **Philbert Ndagijimana**.
+
+- LinkedIn — [linkedin.com/in/philbert-ndagijimana-319570188](https://www.linkedin.com/in/philbert-ndagijimana-319570188/)
+- Email — [phindagiji@gmail.com](mailto:phindagiji@gmail.com)
+- Issues / PRs — [phindagijimana/AI_stack](https://github.com/phindagijimana/AI_stack/issues)
+
 ## License
 
 [MIT](LICENSE).

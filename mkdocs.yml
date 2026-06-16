@@ -207,4 +207,11 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/phindagijimana/AI_stack
+      name: AIStack on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/philbert-ndagijimana-319570188/
+      name: Philbert Ndagijimana on LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:phindagiji@gmail.com
+      name: Email the maintainer
   generator: false

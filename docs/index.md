@@ -160,6 +160,12 @@ AIStack is intentionally parallel in style to **[NeuroStack](https://github.com/
 
 This is a community reference. Broader coverage is welcome. See the [repo](https://github.com/phindagijimana/AI_stack) for how to file issues and open PRs.
 
+## Contact
+
+- :material-linkedin: LinkedIn — [Philbert Ndagijimana](https://www.linkedin.com/in/philbert-ndagijimana-319570188/)
+- :material-email: Email — [phindagiji@gmail.com](mailto:phindagiji@gmail.com)
+- :material-github: Issues and PRs — [phindagijimana/AI_stack](https://github.com/phindagijimana/AI_stack)
+
 ## License
 
 Content and code are released under the [MIT license](https://github.com/phindagijimana/AI_stack/blob/main/LICENSE).

@@ -1,6 +1,6 @@
 # Fundamentals
 
-> The mental model. What an LLM actually is, what's inside it, and what the math says it can and cannot do.
+> The mental model. What AI / ML / DL / LLMs actually are, what's inside them, what the math says, and the engineering substrate (DSA + SE) that supports it all.
 
 This section is the slowest part of the handbook to read and the part that pays off longest. Every other section — prompting, RAG, fine-tuning, inference, evaluation — makes more sense once you have these primitives.
 
@@ -9,11 +9,51 @@ This section is the slowest part of the handbook to read and the part that pays 
 You can skim once for shape, then return when something downstream surprises you. The chapters are written so that:
 
 - **Beginners** can read the prose, skip the math, and still get the mental model.
+- **Intermediate readers** see the conceptual map plus practical recipes.
 - **PhD-level readers** get the math, the derivations, and the primary citations.
 
 You do not need to read this top-to-bottom to start building. The Getting Started on-ramp got you to a working app without any of this; this section is what turns *working* into *understood*.
 
+## A reasonable order
+
+For a brand-new reader, the natural sequence is:
+
+1. **AI overview** — what AI / ML / DL are.
+2. **Math foundations** — linear algebra, calculus, probability, statistics.
+3. **ML fundamentals** — supervised / unsupervised / RL, classical algorithms, evaluation.
+4. **Deep learning fundamentals** — neural networks, backprop, CNNs, RNNs, generative models, embeddings.
+5. **LLMs from first principles** — the transformer and the modern stack.
+6. **Data** — what gets fed in.
+7. **AI domains** — applied AI by subfield.
+8. **DSA + SE** — the engineering substrate.
+
+If you already have ML background, jump to the LLM-specific sections directly.
+
 ## Subsections
+
+### AI overview
+
+The conceptual scaffolding before the math.
+
+- **[AI overview index](ai/index.md)** — [what is AI](ai/what-is-ai.md), [history](ai/history.md), [AI / ML / DL hierarchy](ai/ai-ml-dl.md).
+
+### Machine learning fundamentals
+
+The classical-ML groundwork.
+
+- **[ML index](ml/index.md)** — [supervised](ml/supervised.md), [unsupervised](ml/unsupervised.md), [RL](ml/reinforcement-learning.md), [classical algorithms](ml/classical-algorithms.md), [model evaluation](ml/model-evaluation.md), [bias-variance](ml/bias-variance.md), [regularization](ml/regularization.md), [feature engineering](ml/feature-engineering.md).
+
+### Deep learning fundamentals
+
+Neural networks before transformers.
+
+- **[DL index](deep-learning/index.md)** — [neural networks](deep-learning/neural-networks.md), [backpropagation](deep-learning/backpropagation.md), [activations](deep-learning/activations.md), [losses](deep-learning/losses.md), [CNNs](deep-learning/cnns.md), [RNNs / LSTMs](deep-learning/rnns-lstms.md), [generative models](deep-learning/generative-models.md), [embeddings](deep-learning/embeddings.md).
+
+### AI domains
+
+Applied AI by subfield.
+
+- **[Domains index](domains/index.md)** — [NLP](domains/nlp.md), [computer vision](domains/computer-vision.md), [speech & audio](domains/speech-audio.md), [recommender systems](domains/recommender-systems.md), [time series](domains/time-series.md), [graph neural networks](domains/graph-neural-networks.md).
 
 ### Computational & math foundations
 
@@ -21,8 +61,11 @@ The minimal math vocabulary an AI engineer needs.
 
 - **[Python for AI engineers](foundations/python.md)** — the parts of Python that show up constantly: dataclasses, async, typing, generators, context managers.
 - **[Linear algebra](foundations/linear-algebra.md)** — matrices, einsum, tensor contractions, what a "768-dim hidden state" actually is.
+- **[Calculus](foundations/calculus.md)** — multivariable + matrix calculus; the chain rule that powers backprop.
 - **[Probability & information theory](foundations/probability.md)** — softmax, cross-entropy, KL divergence, perplexity.
+- **[Statistics](foundations/statistics.md)** — frequentist + Bayesian, hypothesis testing, confidence intervals, bootstrap.
 - **[Optimization](foundations/optimization.md)** — gradient descent, Adam / AdamW, learning-rate schedules, gradient clipping.
+- **[Numerical computation](foundations/numerical.md)** — IEEE 754, FP32 / BF16 / FP8, numerical stability.
 - **[Distributed systems primer](foundations/distributed-systems.md)** — what every AI engineer needs from CAP / consistency / coordination, even if they never run a Spark job.
 
 ### LLMs from first principles

@@ -88,12 +88,48 @@ nav:
   - Reading paths: paths/index.md
   - Fundamentals:
       - fundamentals/index.md
+      - AI overview:
+          - fundamentals/ai/index.md
+          - What is AI?: fundamentals/ai/what-is-ai.md
+          - History: fundamentals/ai/history.md
+          - AI, ML, and deep learning: fundamentals/ai/ai-ml-dl.md
+      - Machine learning fundamentals:
+          - fundamentals/ml/index.md
+          - Supervised learning: fundamentals/ml/supervised.md
+          - Unsupervised learning: fundamentals/ml/unsupervised.md
+          - Reinforcement learning: fundamentals/ml/reinforcement-learning.md
+          - Classical algorithms: fundamentals/ml/classical-algorithms.md
+          - Model evaluation: fundamentals/ml/model-evaluation.md
+          - Bias-variance trade-off: fundamentals/ml/bias-variance.md
+          - Regularization: fundamentals/ml/regularization.md
+          - Feature engineering: fundamentals/ml/feature-engineering.md
+      - Deep learning fundamentals:
+          - fundamentals/deep-learning/index.md
+          - Neural networks: fundamentals/deep-learning/neural-networks.md
+          - Backpropagation: fundamentals/deep-learning/backpropagation.md
+          - Activation functions: fundamentals/deep-learning/activations.md
+          - Loss functions: fundamentals/deep-learning/losses.md
+          - CNNs: fundamentals/deep-learning/cnns.md
+          - RNNs / LSTMs: fundamentals/deep-learning/rnns-lstms.md
+          - Generative models: fundamentals/deep-learning/generative-models.md
+          - Embeddings: fundamentals/deep-learning/embeddings.md
+      - AI domains:
+          - fundamentals/domains/index.md
+          - Natural Language Processing: fundamentals/domains/nlp.md
+          - Computer vision: fundamentals/domains/computer-vision.md
+          - Speech & audio: fundamentals/domains/speech-audio.md
+          - Recommender systems: fundamentals/domains/recommender-systems.md
+          - Time series: fundamentals/domains/time-series.md
+          - Graph neural networks: fundamentals/domains/graph-neural-networks.md
       - Computational & math foundations:
           - fundamentals/foundations/index.md
           - Python for AI engineers: fundamentals/foundations/python.md
           - Linear algebra: fundamentals/foundations/linear-algebra.md
+          - Calculus: fundamentals/foundations/calculus.md
           - Probability & information theory: fundamentals/foundations/probability.md
+          - Statistics: fundamentals/foundations/statistics.md
           - Optimization: fundamentals/foundations/optimization.md
+          - Numerical computation: fundamentals/foundations/numerical.md
           - Distributed systems primer: fundamentals/foundations/distributed-systems.md
       - LLMs from first principles:
           - fundamentals/llms/index.md
